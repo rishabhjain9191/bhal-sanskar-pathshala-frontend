@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <h1>Schedule Your class</h1>
+        <h1>Jai Jinendra, Schedule Your class</h1>
         <FormControl fullWidth>
           <InputLabel id="bhag-select-label">Bhag</InputLabel>
           <Select
