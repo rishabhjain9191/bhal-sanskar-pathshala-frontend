@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Production Build](https://github.com/rishabhjain9191/bhal-sanskar-pathshala-frontend/actions/workflows/production.yml/badge.svg?branch=main)](https://github.com/rishabhjain9191/bhal-sanskar-pathshala-frontend/actions/workflows/production.yml)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
