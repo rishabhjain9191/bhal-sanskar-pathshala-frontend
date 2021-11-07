@@ -25,7 +25,7 @@ jobs:
       run: |
         yarn build
     - name: deploy to s3
-      uses: jakejarvis/s3-sync-action@main
+      uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read
       env:
