@@ -25,7 +25,7 @@ function App() {
     console.log("scheduling class with ");
     console.log({ bhag, date, time });
     axios
-      .post("http://localhost:3000/test", {
+      .post("https://16vsnz6hvi.execute-api.ap-south-1.amazonaws.com/test", {
         bhag,
         date,
         time,
