@@ -24,8 +24,12 @@ function App() {
   const scheduleClass = () => {
     console.log("scheduling class with ");
     console.log({ bhag, date, time });
+    if (process.env.REACT_APP_MAKE_CALL === "false") {
+      console.log("skipping call for local environment");
+      return;
+    }
     axios
-      .post("https://16vsnz6hvi.execute-api.ap-south-1.amazonaws.com/test", {
+      .post(`${process.env.REACT_APP_API_PATH}/test`, {
         bhag,
         date,
         time,
@@ -37,6 +41,8 @@ function App() {
         console.log(err);
       });
   };
+  console.log("process.env");
+  console.log(process.env);
   return (
     <div>
       <LocalizationProvider dateAdapter={AdapterDateFns}>
