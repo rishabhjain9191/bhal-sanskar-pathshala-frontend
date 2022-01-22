@@ -22,7 +22,7 @@ jobs:
         yarn install
     - name: npx lerna build
       run: |
-        npx lerna build
+        npx lerna run build
     - name: deploy to s3
       uses: jakejarvis/s3-sync-action@master
       with:
