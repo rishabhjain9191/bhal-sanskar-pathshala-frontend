@@ -20,6 +20,9 @@ jobs:
     - name: yarn install
       run: |
         yarn install
+    - name: lerna bootstrap
+      run: |
+        npx lerna bootstrap
     - name: npx lerna build
       run: |
         npx lerna run build
