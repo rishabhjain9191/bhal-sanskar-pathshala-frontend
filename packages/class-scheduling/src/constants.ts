@@ -7,4 +7,8 @@ export const BHAGS = [
     id: "2",
     name: "Bhag 4 Prelims",
   },
+  {
+    id: "3",
+    name: "Bhag 2 Advanced",
+  },
 ];
