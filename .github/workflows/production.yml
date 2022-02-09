@@ -22,7 +22,7 @@ jobs:
         yarn install
     - name: lerna bootstrap --npm-client yarn
       run: |
-        npx lerna bootstrap
+        npx lerna bootstrap --npm-client yarn
     - name: npx lerna build
       run: |
         npx lerna run build
