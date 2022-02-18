@@ -5,10 +5,14 @@ export const BHAGS = [
   },
   {
     id: "2",
-    name: "Bhag 4 Prelims",
+    name: "Test",
   },
   {
     id: "3",
     name: "Bhag 2 Advanced",
+  },
+  {
+    id: "4",
+    name: "Bhag 4 Prelims",
   },
 ];
