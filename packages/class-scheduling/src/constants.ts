@@ -15,4 +15,8 @@ export const BHAGS = [
     id: "4",
     name: "Bhag 4 Prelims",
   },
+  {
+    id: "5",
+    name: "Bhag 1 Advanced Oral",
+  },
 ];
