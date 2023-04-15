@@ -13,7 +13,7 @@ export const BHAGS = [
   },
   {
     id: "4",
-    name: "Bhag 4 Prelims",
+    name: "Bhag 4 Advanced",
   },
   {
     id: "5",
